@@ -29,10 +29,11 @@ This project aims to provide developers with a ready-to-use and extensible date 
 
 ## Usage
 
-To use `clsDate`, simply include the `clsDate.h` header in your project and link it with your implementation of `clsString` which provides string splitting utilities.
+To use `clsDate`, simply include the `clsDate.h` and `clsString.h` headers in your project.
 
 Example:
 ```cpp
+#include "clsString.h"
 #include "clsDate.h"
 
 int main() {
